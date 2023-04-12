@@ -1,0 +1,77 @@
+* {
+  /* селектор для каждого елемента */
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.img {
+  width: 400px;
+  /* height: 400px; */
+  /* размеры для всех сторон */
+  padding: 20px;
+  /* 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px; 
+  */
+  /* Сверху | Справа | Снизу | Слева */
+  padding: 10px 20px 30px 40px;
+    /* 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px; 
+  */
+  /* По вертикали | По горизонтали */
+  padding: 30px 50px;
+  /* 
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px; 
+  */
+  /* Сверху | По горизонтали | Снизу */
+  padding: 30px 50px 0;
+  /* 
+  границы 
+    border-width
+    border-style
+    border-color
+  */
+
+  /* для 4 сторон */
+  border: 5px solid red;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color:red; */
+
+  /* для конкретных сторон */
+  /* border-top-width: 10px;
+  border-top-style: dashed;
+  border-top-color: orange; */
+  border-top: 10px dashed orange;
+
+  /* внешние поля 
+    скоращения как у паддингов
+  */
+  margin: 20px;
+}
+
+body {
+  font-size: 0;
+  width: 500px;
+  height: 1000px;
+}
+
+.elem {
+  /* display: inline; */
+  /* display: block; */
+  display: inline-block;
+  background-color: dodgerblue;
+  font-size: 36px;
+  /* padding: 10px 100px; */
+  border: 10px solid red;
+  width: 50%;
+  height: 80%;
+}
